@@ -1,13 +1,12 @@
-## CO395 Introduction to Machine Learning: Coursework 1 (Decision Trees)
+Decision Trees
 
 ### Introduction
 
-This repository contains the skeleton code and dataset files that you need 
-in order to complete the coursework.
+I have implemented a decision tree from scratch in Python 3 to classify a set of black-and-white pixel images into one of several letters in the English alphabet
 
 ### Data
 
-The ``data/`` directory contains the datasets you need for the coursework.
+The ``data/`` directory contains the datasets.
 
 The primary datasets are:
 - ``train_full.txt``
@@ -15,8 +14,7 @@ The primary datasets are:
 - ``train_noisy.txt``
 - ``validation.txt``
 
-Some simpler datasets that you may use to help you with implementation or 
-debugging:
+Some simpler datasets:
 - ``toy.txt``
 - ``simple1.txt``
 - ``simple2.txt``
@@ -30,26 +28,18 @@ classifier (use ``validation.txt`` for this instead).
 
 - ``classification.py``
 
-	* Contains the skeleton code for the ``DecisionTreeClassifier`` class. Your task 
-is to implement the ``train()`` and ``predict()`` methods.
+	* Contains the skeleton code for the ``DecisionTreeClassifier`` class.
 
 
 - ``eval.py``
 
-	* Contains the skeleton code for the ``Evaluator`` class. Your task is to 
-implement the ``confusion_matrix()``, ``accuracy()``, ``precision()``, 
-``recall()``, and ``f1_score()`` methods.
+	* Contains the skeleton code for the ``Evaluator`` class.
 
 
 - ``example_main.py``
 
-	* Contains an example of how the evaluation script on LabTS might use the classes
+	* Contains an example of how the evaluation script uses the classes
 and invoke the methods defined in ``classification.py`` and ``eval.py``.
-
-
-### Instructions
-
-< Insert your own instructions here >
 
 
 
