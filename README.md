@@ -1,4 +1,4 @@
-Decision Trees
+# Decision Trees
 
 ### Introduction
 
